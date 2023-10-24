@@ -1,5 +1,5 @@
 import { useMutation } from "@apollo/client";
-import { CREATE_USER, LOGIN } from "../util/mutations";
+import { CREATE_USER, LOGIN } from "./mutations";
 import { createContext, useContext, useEffect, useReducer } from "react";
 import decode from "jwt-decode";
 
